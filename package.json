@@ -1,0 +1,29 @@
+{
+  "name": "book-app-express-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jorge-William/book-app-express-typescript.git"
+  },
+  "keywords": [
+    "typescript",
+    "node.js",
+    "express"
+  ],
+  "author": "Jorge William",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jorge-William/book-app-express-typescript/issues"
+  },
+  "homepage": "https://github.com/Jorge-William/book-app-express-typescript#readme",
+  "dependencies": {
+    "-": "^0.0.1",
+    "g": "^2.0.1",
+    "npm": "^9.6.2"
+  }
+}
