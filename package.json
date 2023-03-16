@@ -4,8 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "tsx src/index.ts",
-    "dev": "tsx watch src/index.ts",
+    "start": "tsx src/server.ts",
+    "dev": "tsx watch src/server.ts",
     "build": "tsup src"
   },
   "repository": {
@@ -25,11 +25,27 @@
   "homepage": "https://github.com/Jorge-William/book-app-express-typescript#readme",
   "dependencies": {
     "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "method-override": "^3.0.0",
     "mongoose": "^7.0.2",
+    "mysql2": "^3.2.0",
     "pug": "^3.0.2",
+    "reflect-metadata": "^0.1.13",
     "tsup": "^6.6.3",
-    "tsx": "^3.12.5"
+    "tsx": "^3.12.5",
+    "typeorm": "^0.3.12"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@typescript-eslint/eslint-plugin": "^5.55.0",
+    "eslint": "^8.36.0",
+    "eslint-config-standard-with-typescript": "^34.0.1",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.32.2",
+    "typescript": "^4.9.5"
   }
 }
